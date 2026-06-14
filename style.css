@@ -63,3 +63,35 @@ body {
     justify-content: space-between;
     display: flex;
 }
+
+
+.read {
+    background: white;
+    border: 2px solid mediumorchid;
+    color: mediumorchid;
+}
+
+.sub {
+    border: none;
+    background: mediumorchid;
+    color: white;
+}
+
+.read:hover {
+    background: mediumorchid;
+    color: white
+}
+
+.sub:hover {
+    opacity: 0.9;
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 30px;
+    }
+
+    .card{
+        width: 90%;
+    }
+}
